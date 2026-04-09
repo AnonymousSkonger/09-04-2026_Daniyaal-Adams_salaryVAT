@@ -48,3 +48,16 @@ p {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
+
+@media screen and (max-width: 500px) {
+    form {
+        padding: 15px;
+    }
+    input {
+        width: 100%;
+        margin: 10px 0;
+    }
+    button {
+        width: 100%;
+    }
+}
