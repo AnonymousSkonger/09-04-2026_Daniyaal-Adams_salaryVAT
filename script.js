@@ -1,6 +1,7 @@
 //Capture following inputs
 function calculateSalary() {
     //Get values from form
+    let employeeName = document.getElementById("employee_name").value;
     let dailyRate = Number(document.getElementById("daily_rate").value);
     let daysWorked = Number(document.getElementById("days_worked").value);
 
@@ -27,7 +28,8 @@ function calculateSalary() {
 
     //Display Results
     document.getElementById("result").innerHTML = 
-    ("Gross Salary: " + grossSalary + 
+    ("Employee Name: " + employeeName + 
+        "<br>Gross Salary: " + grossSalary + 
         "<br>VAT: " + vat + 
         "<br>Salary after VAT: " + netSalary);
 }
