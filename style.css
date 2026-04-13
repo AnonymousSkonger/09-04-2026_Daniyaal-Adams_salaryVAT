@@ -11,6 +11,13 @@ body {
     padding: 20px;
 }
 
+/*Heading Style*/
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
 /*Form Styling*/
 form {
     max-width: 400px;
@@ -24,6 +31,7 @@ input {
     margin: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
+    align-content: center;
 }
 
 /*Button Styling*/
